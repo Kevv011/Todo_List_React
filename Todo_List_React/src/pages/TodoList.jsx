@@ -56,7 +56,7 @@ const TaskTable = ({ tasks, handleToggleComplete, handleEditTask, handleDeleteTa
                     <th className="actions-header">Acciones</th>
                 </tr>
             </thead>
-            <tbody class="text-center">
+            <tbody className="text-center">
                 {tasks.map((task, index) => (
                     <tr key={task.id} className={task.completed ? "table-success" : ""}>
                         <td className="check-input-container">
