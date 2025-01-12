@@ -141,7 +141,6 @@ function TodoList() {
     };
 
     const discardChanges = () => {
-        setTileForm("Crear tarea");
         reset();
     };
 
